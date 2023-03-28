@@ -1,4 +1,4 @@
-# slidev-theme-slide-dev-dotnet-junkie
+# Slidev Theme - Dotnet Junkie
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-slide-dev-dotnet-junkie?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-slide-dev-dotnet-junkie)
 
