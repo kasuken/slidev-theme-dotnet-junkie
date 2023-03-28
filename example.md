@@ -75,16 +75,22 @@ function updateUser(id: number, update: Partial<User>) {
 layout: speaker-info
 
 headerMessage: Thanks for all the fish.
-name: Emanuele Bartolesi
+speakerName: Emanuele Bartolesi
 imageSrc: https://media.licdn.com/dms/image/C4E22AQF3xVz48u-aZw/feedshare-shrink_2048_1536/0/1674116926286?e=1681948800&v=beta&t=IvluYJWS8Fj7FagnBzb6ozNjD_oeYtx3PrncCy6YW00
-jobTitle: Azure Architect
+jobTitle: Microsoft 365 Architect
 info1: Microsoft MVP & GitHub Star ⭐
 info2: 
 social1: kasuken
 social2: emanuelebartolesi.com
 social3: emanueleb@outolook.com
+---
 
 ---
+layout: focus
+---
+# Focus Section
+
+subtitle for focus
 
 ---
 

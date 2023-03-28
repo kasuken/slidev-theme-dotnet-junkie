@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-slide-dev-dotnet-junkie?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-slide-dev-dotnet-junkie)
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
+A dark theme for [Slidev](https://github.com/slidevjs/slidev) based on [dot.net](https://dot.net) website' colours by [Emanuele Bartolesi](https://www.emanuelebartolesi.com)
 
 <!--
   Learn more about how to write a theme:
@@ -19,12 +19,12 @@ A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
   Live demo: [...]
 -->
 
-## Install
+## Usage
 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
 <pre><code>---
-theme: <b>slide-dev-dotnet-junkie</b>
+theme: <b>slidev-theme-dotnet-junkie</b>
 ---</code></pre>
 
 Learn more about [how to use a theme](https://sli.dev/themes/use).
@@ -33,13 +33,10 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 This theme provides the following layouts:
 
-> TODO:
-
-## Components
-
-This theme provides the following components:
-
-> TODO:
+- default
+- cover
+- slice
+- speaker-info
 
 ## Contributing
 

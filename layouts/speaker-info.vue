@@ -4,7 +4,7 @@
   const props = defineProps<{
     imageSrc?: string
     headerMessage?: string
-    name?: string
+    speakerName?: string
     jobTitle?: string
     info1?: string
     info2?: string
@@ -24,7 +24,7 @@
         <h1 v-if="headerMessage" class="flex">{{ headerMessage }}</h1>
 
         <div class="flex flex-col justify-end items-end text-right py-16">
-          <h2 class="font-extrabold">{{ name }}</h2>
+          <h2 class="font-extrabold">{{ speakerName }}</h2>
 
           <div class="text-2xl space-y-2 mt-4">
             <p class="jobTitle">{{ jobTitle }}</p>
