@@ -1,18 +1,18 @@
 <script setup lang="ts">
-  import { computed } from 'vue'
-  import { handleBackground } from '@slidev/client/layoutHelper'
-  const props = defineProps<{
-    imageSrc?: string
-    headerMessage?: string
-    speakerName?: string
-    jobTitle?: string
-    info1?: string
-    info2?: string
-    social1?: string
-    social2?: string
-    social3?: string
-  }>()
-  const style = computed(() => handleBackground(props.imageSrc, false))
+import { computed } from 'vue'
+import { handleBackground } from '@slidev/client/layoutHelper'
+const props = defineProps<{
+  imageSrc?: string
+  headerMessage?: string
+  speakerName?: string
+  jobTitle?: string
+  info1?: string
+  info2?: string
+  social1?: string
+  social2?: string
+  social3?: string
+}>()
+const style = computed(() => handleBackground(props.imageSrc, false))
 </script>
 
 <template>
